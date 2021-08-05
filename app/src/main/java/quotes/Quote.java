@@ -1,9 +1,14 @@
 package quotes;
+
+import java.util.Arrays;
+import java.util.List;
+
 public class Quote {
     String[] tages;
     String author;
     String likes;
     String text;
+    private List<Quote> results;
 
     public Quote(String[] tages, String author, String likes, String text) {
         this.tages = tages;
@@ -42,5 +47,15 @@ public class Quote {
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    @Override
+    public String toString() {
+        return "Quote{" +
+                "tages=" + Arrays.toString(tages) +
+                ", author='" + author + '\'' +
+                ", likes='" + likes + '\'' +
+                ", text='" + text + '\'' +
+                '}';
     }
 }
