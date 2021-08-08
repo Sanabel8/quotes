@@ -1,14 +1,12 @@
 package quotes;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class Quote {
     String[] tages;
     String author;
     String likes;
     String text;
-    private List<Quote> results;
 
     public Quote(String[] tages, String author, String likes, String text) {
         this.tages = tages;
