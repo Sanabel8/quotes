@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e78081-971d-4af2-b1fb-e7aceeabab77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/quotes.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/quotes.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/quotes.app.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/quotes.app.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/quotes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/quotes/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/quotes/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/quotes/Quote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="quotes" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>

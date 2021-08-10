@@ -25,7 +25,7 @@ public class App {
         try {
             Gson gson = new Gson();
             reader = new BufferedReader(new FileReader(String.valueOf(path)));
-            new TypeToken<ArrayList<Quote>>(){}.getType();
+//            new TypeToken<ArrayList<Quote>>(){}.getType();
             ArrayList<Quote> quote = new Gson().fromJson(reader , new TypeToken<ArrayList<Quote>>(){}.getType());
             int randomQuete = (int) (Math.random()*quote.size());
             System.out.println(randomQuete);
