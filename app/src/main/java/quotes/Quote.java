@@ -1,27 +1,30 @@
 package quotes;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 public class Quote {
-    String[] tages;
-    String author;
-    String likes;
-    String text;
+ private String author;
+ private String text;
+ private String content;
+ private String authorSlug;
 
-    public Quote(String[] tages, String author, String likes, String text) {
-        this.tages = tages;
+
+
+
+    public Quote(String author,String text) {
         this.author = author;
-        this.likes = likes;
         this.text = text;
     }
-
-    public String[] getTages() {
-        return tages;
+  public Quote(){}
+    public Quote(String author, String content, String authorSlug){
+        this.author=author;
+        this.content=content;
+        this.authorSlug=authorSlug;
     }
 
-    public void setTages(String[] tages) {
-        this.tages = tages;
-    }
+
 
     public String getAuthor() {
         return author;
@@ -31,12 +34,20 @@ public class Quote {
         this.author = author;
     }
 
-    public String getLikes() {
-        return likes;
+    public String getContent() {
+        return content;
     }
 
-    public void setLikes(String likes) {
-        this.likes = likes;
+    public String getAuthorSlug() {
+        return authorSlug;
+    }
+
+    public void setAuthorSlug(String authorSlug) {
+        this.authorSlug = authorSlug;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public String getText() {
@@ -49,11 +60,13 @@ public class Quote {
 
     @Override
     public String toString() {
-        return "Quote{" +
-                "tages=" + Arrays.toString(tages) +
-                ", author='" + author + '\'' +
-                ", likes='" + likes + '\'' +
-                ", text='" + text + '\'' +
-                '}';
+        if (text==null)
+            return "Quote{" +
+                    "author='" + author + '\'' +
+                    ", text='" + content+ '\'';
+        else
+            return "Quotes{" +
+                    "author='" + author + '\'' +
+                    ", text='" + text + '\'';
     }
 }
