@@ -6,7 +6,7 @@ public class QuoteAPI {
 
     public QuoteAPI(String quoteText, String quoteAuthor) {
         this.quoteText = quoteText;
-        this.quoteAuthor = quoteAuthor;
+        this.quoteAuthor = quoteAuthor ;
     }
 
     public String getQuoteText() {
@@ -28,8 +28,8 @@ public class QuoteAPI {
     @Override
     public String toString() {
         return "QuoteAPI{" +
-                "quoteText='" + quoteText + '\'' +
-                ", quoteAuthor='" + quoteAuthor + '\'' +
+                "quoteText='" + this.quoteText + '\'' +
+                ", quoteAuthor='" +this.quoteAuthor + '\'' +
                 '}';
     }
 }
